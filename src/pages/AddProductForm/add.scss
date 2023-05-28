@@ -1,0 +1,30 @@
+.addproduct{
+    height: 90vh;
+    padding-top: 140px;
+    h2{
+        color: #2a4c39;
+        margin-left: 80px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
+        input{
+            width: 320px;
+            height: 40px;
+            margin-top: 20px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            background-color: white;
+            color: #2a4c39;
+            border-color: #2a4c39;
+            margin-top:30px ;
+        }
+        button:hover{
+            background-color: #2a4c39;
+            color: white;
+        }
+    }
+}

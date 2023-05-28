@@ -1,0 +1,51 @@
+.register{
+    .register-wrapper{
+        padding-top: 120px;
+        display: flex;
+        padding-bottom: 30px;
+        p, h3, h2{
+            color: #2a4c39;
+            margin-bottom: 30px;
+        }
+        
+        .reg-left{
+            padding-left: 40px;
+            
+            
+           .guest{
+            display: flex;
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            p{
+                padding-top: 5px;
+                padding-left: 5px;
+                font-weight: 600;
+            }
+           }
+        }
+        .reg-right{
+            width: 70%;
+            input{
+                width: 80%;
+                height: 60px;
+                background-color: rgb(234, 234, 234);
+                border: none;
+                margin-bottom: 30px;
+            }
+            button{
+                width: 40%;
+                height: 60px;
+                font-weight: 600;
+                background-color: white;
+                color: #2a4c39;
+
+            }
+            button:hover{
+                background-color: #2a4c39;
+                color: white;
+            }
+        }
+    }
+}

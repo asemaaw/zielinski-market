@@ -1,0 +1,44 @@
+.header{
+    border-bottom: 2px double #2a4c39;
+    position: fixed;
+    width: 100%;
+    // border-color: white;
+    background-color: white;
+    
+    nav{
+    display: flex;
+    margin-left: 150px;
+    // position: fixed;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+    .link-text{
+        margin-right: 60px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #2a4c39;
+        margin-top: 25px;
+    }
+    .link{
+        width: 25px;
+        height: 25px;
+        margin-right: 80px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .mainlogo{
+        width: 50%;
+        border-color: #2a4c39;
+        // border: 3px double;
+        padding-left: 65px;
+        padding-top: 10px;
+        
+        
+    }
+    .line{
+        width: 1px;
+        height: 93px;
+        margin-right: 20px;
+        background-color:  #2a4c39;
+    }
+}
+}

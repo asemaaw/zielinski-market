@@ -1,0 +1,143 @@
+.main{
+    height: 100vh;
+    .main-wrapper{
+        display: flex;
+        padding-top: 95px;
+    
+    .left-wrapper{
+        width: 50%;
+    height: 100vh;
+    
+    // background-color: rgb(225, 224, 187);
+    
+    .this{
+        margin-left: 110px;
+    }
+    .first{
+        display: flex;
+        border-bottom: 1.5px dashed rgb(62, 62, 62);
+    }
+    .first-img{
+        img{
+            width: 330px;
+            height: 290px;
+        }
+    }
+  
+   
+    .first-descr{
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+        // margin: auto;
+        // padding: auto;
+        margin: 130px 0 0 110px;
+        font-size: 20px;
+    }
+    }
+    .home, .face{
+        p{
+            width: 100%;
+        }
+    }
+    .swiper{
+        display: flex;
+        width: 100%;
+        padding-top: 50px;
+        
+        
+    
+    .first-swiper{
+        width: 100%;
+        img{
+            width: 100%;
+            height: 300px;
+        }
+        h2{
+            color: #2a4c39 ;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        p{
+            color: #2a4c39;
+            margin-bottom: 20px;
+        }
+        button{
+            color: #2a4c39;
+            background-color: white;
+            width: 250px;
+            height: 40px;
+            font-size: 20px;
+            border-color: #2a4c39;
+            text-decoration: none;
+          
+            
+        }
+        button:hover{
+            background-color: #2a4c39;
+            color: white;
+        }
+    }
+}
+    
+}
+.right-wrapper{
+    background-color: beige;
+    
+    width: 50%;
+    // position: fixed;
+    // left: 50%;
+    // top: 100px;
+    margin-left: 10px;
+   
+    img{
+        width: 100%;
+        height: 500px;
+    }
+    h2{
+        color: #2a4c39 ;
+        margin-bottom: 20px;
+        font-size: 28px;
+       
+    }
+    p{
+        color: #2a4c39;
+        margin-bottom: 20px;
+       
+    }
+    button{
+        color: #2a4c39;
+        background-color: white;
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        border-color: #2a4c39;
+        
+        a{
+            text-decoration: none;
+            color:#2a4c39 ;
+        }
+      
+        
+        
+    }
+    button:hover{
+        background-color: #2a4c39;
+        a{
+            color: white;
+        }
+
+    }
+    .homie{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+}
+}
+.minu{
+    padding-right: 30px;
+}
